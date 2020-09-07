@@ -1,0 +1,14 @@
+name: example-environment
+channels:
+  - conda-forge
+dependencies:
+  - cython
+  - scipy
+  - numpy
+  - qutip
+  - matplotlib
+  - h5py
+  - tqdm
+  - cycler
+  - pathos
+  - dill
