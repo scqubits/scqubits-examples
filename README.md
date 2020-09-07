@@ -4,7 +4,7 @@ scqubits: superconducting qubits in Python
 [J. Koch](https://github.com/jkochNU), [P. Groszkowski](https://github.com/petergthatsme)
 
 
-**This repository contains Jupyter notebooks showing examples of how touse the scqubits library.**
+**This repository contains Jupyter notebooks showing examples of how to use the scqubits library.**
 
 scqubits is an open-source Python library for simulating superconducting qubits. It is meant to give the user
 a convenient way to obtain energy spectra of common superconducting qubits, plot energy levels as a function of
