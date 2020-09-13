@@ -12,5 +12,5 @@ dependencies:
   - cycler
   - pathos
   - dill
-  - scqubits
+  - scqubits==1.3.1
   - ipywidgets
