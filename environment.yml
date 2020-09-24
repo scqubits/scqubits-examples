@@ -7,11 +7,10 @@ dependencies:
   - numpy
   - qutip
   - matplotlib
-  - h5py
+  - h5py>=2.7.1
   - tqdm
   - cycler
   - pathos
   - dill
-  - h5py
   - scqubits==1.3.2
   - ipywidgets
