@@ -1,0 +1,36 @@
+name: scqubits-examples testing via pytest --nbsmoke-run
+
+on: [push]
+
+jobs:
+  build:
+
+    runs-on: ubuntu-latest
+    strategy:
+      max-parallel: 1
+      matrix:
+        python-version: [3.6,
+                         3.7,
+                         3.8]
+
+    steps:
+    - uses: actions/checkout@v1
+    - name: Set up Python ${{ matrix.python-version }}
+      uses: actions/setup-python@v1
+      with:
+        python-version: ${{ matrix.python-version }}
+    - name: Install dependencies
+      run: |
+        python -m pip install --upgrade pip
+        pip install Cython
+        pip install numpy
+        pip install scipy
+        pip install -r requirements.txt
+        pip install scqubits
+    - name: Test notebooks with pytest --nbsmoke-run
+      run: |
+        pip install pytest
+        pip install ipywidgets
+        pip install scqubits
+        pip install nbsmoke
+        pytest --nbsmoke-run 
