@@ -25,12 +25,11 @@ jobs:
         pip install Cython
         pip install numpy
         pip install scipy
+        pip install ipywidgets
         pip install -r workflow-requirements.info
-        pip install scqubits
+        python -m pip install git+https://github.com/scqubits/scqubits.git
     - name: Test notebooks with pytest --nbsmoke-run
       run: |
         pip install pytest
-        pip install ipywidgets
-        pip install scqubits
         pip install nbsmoke
         pytest --nbsmoke-run 
