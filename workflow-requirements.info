@@ -6,3 +6,4 @@ qutip>=4.3.1
 h5py
 cycler
 tqdm
+pathos
