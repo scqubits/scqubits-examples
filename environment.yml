@@ -14,3 +14,4 @@ dependencies:
   - dill
   - scqubits==2.0
   - ipywidgets
+  - sympy
