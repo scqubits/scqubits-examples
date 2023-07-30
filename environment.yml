@@ -2,7 +2,7 @@ name: example-environment
 channels:
   - conda-forge
 dependencies:
-  - cython
+  - cython>=0.29.20, <3.0.0
   - scipy
   - numpy
   - qutip
@@ -12,6 +12,6 @@ dependencies:
   - cycler
   - pathos
   - dill
-  - scqubits==2.0
-  - ipywidgets
+  - scqubits==3.2
   - sympy
+  - ipyvuetify

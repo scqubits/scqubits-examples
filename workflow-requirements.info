@@ -1,9 +1,14 @@
-cython>=0.28.5
+cython>=0.29.20,<3.0.0
 numpy>=1.14.2
 scipy>=1.1.0
-matplotlib>=3.0.0
+matplotlib>=3.5
 qutip>=4.3.1
 h5py
 cycler
 tqdm
 pathos
+ipyvuetify
+pyyaml
+sympy
+tqdm
+typing_extensions
