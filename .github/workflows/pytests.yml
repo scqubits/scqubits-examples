@@ -1,4 +1,4 @@
-name: scqubits-examples testing via pytest --nbsmoke-run
+name: scqubits-examples testing via pytest nbval
 
 on: [push]
 
@@ -29,8 +29,8 @@ jobs:
         pip install ipywidgets
         pip install -r workflow-requirements.info
         python -m pip install git+https://github.com/scqubits/scqubits.git
-    - name: Test notebooks with pytest --nbsmoke-run
+    - name: Test notebooks with py.test --nbval-lax
       run: |
         pip install pytest
-        pip install nbsmoke
-        pytest --nbsmoke-run 
+        pip install nbval
+        py.test --nbval-lax 
