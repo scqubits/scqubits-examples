@@ -3,8 +3,10 @@ scqubits: superconducting qubits in Python
 
 [J. Koch](https://github.com/jkochNU), [P. Groszkowski](https://github.com/petergthatsme)
 
+**(A few notebooks may not be fully updated to work with the latest version of scqubits - this is a known problem and will be fixed shortly)**
 
 **This repository contains Jupyter notebooks showing examples of how to use the scqubits library.**
+
 
 > **You can access a live jupyter notebook version of the examples here:** [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/scqubits/scqubits-examples/released)
 
