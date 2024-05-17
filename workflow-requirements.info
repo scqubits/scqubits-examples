@@ -5,3 +5,4 @@ ipyvuetify
 pathos>=0.3.0
 traitlets
 typing_extensions
+qutip-qip; python_version >= "3.9"
