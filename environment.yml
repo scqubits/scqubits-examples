@@ -15,3 +15,5 @@ dependencies:
   - scqubits==2.0
   - ipywidgets
   - sympy
+  - jupyter
+  - pytest
