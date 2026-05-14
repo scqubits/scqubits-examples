@@ -12,6 +12,8 @@ dependencies:
   - cycler
   - pathos
   - dill
-  - scqubits==2.0
+  - scqubits>=4.3
   - ipywidgets
+  - ipyvuetify
   - sympy
+  - qutip-qip
